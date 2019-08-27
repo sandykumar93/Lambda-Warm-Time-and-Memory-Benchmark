@@ -23,8 +23,5 @@ checkoptimalmemory()<br>
 Use this function to trigger lambda function with various memory values specified in the "memory" variable. It will provide the execution time for both "warm" and "cold" states.
 
 
-
-
-
 checkwarmtime()<br>
 Use this function to trigger lambda function with between time intervals specified in the "timeinmin" variable. It will provide the execution time for both "warm" and "cold" states.
