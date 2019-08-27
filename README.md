@@ -1,6 +1,6 @@
 # AWSLambda-Warm-Time-and-Memory-Benchmark
 Simple python code to check lambda warm time and to benchmark memory<br>
-Run the python file - lambdabechmark.py in Cloud9 with Lambda Invoke permission.
+Run the python file - lambdabenchmark.py in Cloud9 with Lambda Invoke permission.
 
 # Validation points
  - The execution time of a lambda in "warm" state is significantly lesser than the execution time in "cold" state
