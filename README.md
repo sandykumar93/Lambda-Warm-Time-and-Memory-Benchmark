@@ -19,13 +19,15 @@ Output
  - results - all the results are stored in this variable
 
 # Python Functions
-checkoptimalmemory()<br>
+## checkoptimalmemory()
+<br>
 Use this function to trigger lambda function with various memory values specified in the "memory" variable. It will provide the execution time for both "warm" and "cold" states.
 
 ![WhatsApp Image 2019-08-24 at 7 42 44 AM](https://user-images.githubusercontent.com/34301887/63790936-f9917100-c917-11e9-8aed-802d9efb9c37.jpeg)
 
+
+## checkwarmtime()
 <br>
-checkwarmtime()<br>
 Use this function to trigger lambda function with between time intervals specified in the "timeinmin" variable. It will provide the execution time for both "warm" and "cold" states.
 
 ![WhatsApp Image 2019-08-27 at 10 01 35 PM](https://user-images.githubusercontent.com/34301887/63791092-568d2700-c918-11e9-9953-577d8d627e56.jpeg)
