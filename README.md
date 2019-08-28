@@ -3,7 +3,7 @@ Simple python code to check lambda warm time and to benchmark memory<br>
 Run the python file - lambdabenchmark.py in Cloud9 with Lambda Invoke permission.
 
 # Validation points
- - The execution time of a lambda in "warm" state is significantly lesser than the execution time in "cold" state
+ - The warm start execution time of a lambda is significantly lesser than the cold start execution.
  - As the memory is increased, the execution time decreases until a saturation memory is reached
 
 The python code provides tests the lambda and provides data to validate the above mentioned points.
@@ -26,7 +26,7 @@ Use this function to trigger lambda function with various memory values specifie
 
 
 ## checkwarmtime()
-Use this function to trigger lambda function with between time intervals specified in the "timeinmin" variable. It will provide the execution time for both "warm" and "cold" states.
+Use this function to trigger lambda function with between time intervals specified in the "timeinmin" variable. It will provide the execution time for both "warm" and "cold" starts.
 
 ![WhatsApp Image 2019-08-27 at 10 01 35 PM](https://user-images.githubusercontent.com/34301887/63791092-568d2700-c918-11e9-9953-577d8d627e56.jpeg)
 
